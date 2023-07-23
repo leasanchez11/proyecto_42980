@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Monserrat', sans-serif;
+    
+}    
+
+.nav.navbar.navbar-expand-lg.navbar-light.colorAzul{
+    background-color: rgb(9, 9, 99);
+}
+.navbar-light .navbar-nav .nav-link.colorBlanco{
+    color: aliceblue;
+}    
+
+.carousel-item{
+    height: 60vh;
+    width: 100%;
+
+}
+.carousel-item img{
+    height: 100%;
+    width: 100%;
+    
+    
+}
+.carousel-caption .destinosCarousel{
+    height: 200px;
+    width: 200px;
+}
+
+.tituloPrincipal{
+    color: red;
+    font-size: 36px;
+}
+.subtitulo{
+    color: blue;
+    font-size: 26px;
+}
+.oportunidades{
+    color: rgb(237, 227, 227);
+    font-size: 22px;
+    background-color: rgb(46, 57, 189);
+    inline-size: 300px;
+}
+.destinos{
+    height: 200px;
+    width: 300px;
+}
+.reservar{
+    font-size: 20px;
+    color: blue;
+}
+.logofooter{
+        height: 40px;
+        width: 105px;
+}
+
+@media screen and (min-width:0px) and (max-width: 768px) {
+.carousel-item{
+    height: 40vh;
+}
+
+.carousel-item img{
+        width: 100%;
+        height: 100%;
+        object-fit:fill;
+       
+}
+}
