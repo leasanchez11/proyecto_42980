@@ -25,7 +25,6 @@ body{
     width: 100%;
     padding-left: 18%;
     padding-right: 3%;
-    /*padding-bottom: 50px;*/
     text-align: left;
 }
 .imagen-item img{
@@ -110,14 +109,47 @@ body{
 .hrefAside{
     color: gray;
     font-size: 1.2rem;
+}
+.tituloFooter{
+    color: rgb(11, 11, 137);
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+.anclaFooter{
+    text-decoration: none;
+    color: rgb(162, 160, 160);
+
+}
+.barraFooter{
+    margin-top: 35px;
+    background-color: rgb(221, 221, 221);
+    height:15vh;
+    width: 100%;
+    background-color: rgb(9, 9, 99);
+}
+.logoFooter{
+    height: 20vh;
+    width: 50vh;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.logoFooter img{
+    height: 40%;
+    width: 50%;
+    padding-left: 4rem;  
+}
+.lineaLatam{
+    color: aliceblue;
+    margin-top: 50px;
+    height: 10vh;
+    width: 50vh;
     
+}
+.lineaLatam p{
+    font-size: 1.2rem;
 
 }
-.logofooter{
-    height: 30px;
-    width: 105px;
-}
-
 @media screen and (min-width:0px) and (max-width: 768px) {
 
 .navbar-toggler{
