@@ -20,19 +20,19 @@ body{
 .navbar-light .navbar-nav .nav-link.colorRojo{
     color: rgb(199, 3, 3);
 }    
-.imagen-item{
+.imagen-itemHeader{
     height: 40vh;
     width: 100%;
     padding-left: 18%;
     padding-right: 3%;
     text-align: left;
 }
-.imagen-item img{
+.imagen-itemHeader img{
     height: 100%;
     width: 80%;
     border-radius: 0 0 0.5rem 0.5rem;
 }
-.carousel-caption .destinoPrincipal{
+.carousel-caption .destinoPrincipalHeader{
     color: rgb(2, 2, 103);
     text-decoration: none;
     display: flex;
@@ -53,23 +53,37 @@ body{
     height: 100%;
     width: 100%;    
 }
+.padreTitulosIndex{
+    margin-left: 7.5rem;
+}
+.tituloPrincipalIndex{
+    color: rgb(47, 13, 182);
+    display: flex;
+    justify-content: left;
+    font-size: 2rem;
+    font-weight: 400;
+    align-items: flex-start;
+    padding-left: 29px;
+    margin-bottom: 1rem;
 
-.tituloPrincipal{
-    color: red;
-    font-size: 36px;
 }
-.subtitulo{
-    color: blue;
-    font-size: 26px;
+.subtituloIndex{
+    color: rgb(141, 141, 148);
+    font-size: 1.6rem;
+    text-align: left;
+    
 }
-.card{
+.cardIndex{
     width: 25rem;
     margin-bottom: 1rem;
     border-radius: 1rem;
     border: rgba(93, 93, 93, 0.142) solid;
 }
-.card .cardAdaptada{
+
+.cardIndex .cardIndexAdaptada{
     height: 262px;
+    width: 100%;
+    border-radius: 0.2rem;
 }
 .asideUno{
     height: 30vh;
@@ -109,6 +123,20 @@ body{
 .hrefAside{
     color: gray;
     font-size: 1.2rem;
+}
+.tituloPrincipalDestinos h1{
+    color: rgb(162, 160, 160);
+    margin: 35px 0 45px 0;
+}
+
+.cardDestinos{
+    width: 25rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    border: rgba(93, 93, 93, 0.142) solid;
+}
+.card-title{
+    color: rgb(162, 160, 160); 
 }
 .tituloFooter{
     color: rgb(11, 11, 137);
