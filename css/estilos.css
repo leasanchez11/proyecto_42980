@@ -175,7 +175,7 @@ body{
     font-size: 1.2rem;
 
 }
-@media screen and (min-width:380px) and (max-width: 780px) {
+@media screen and (min-width:0px) and (max-width: 780px) {
 
 .navbar-toggler{
     background-color: aliceblue;
@@ -221,7 +221,8 @@ body{
     padding-top: 0px;
 }
 .tituloPrincipalIndex{
-    padding-top: 0px;
+    padding-left: 0;
+    justify-content: flex-start;
 }
 .asideUno{
     margin: 7rem 1rem 5rem 1rem;
@@ -233,11 +234,40 @@ body{
 }
 .footer{
     margin: 0 0px 0 0px;
-    background-color: aqua;
     width: 100%;
 }
 .divFooter{
     margin: 0 1rem 0 1rem;
+}
+.barraFooter{
+    width: 55vh;
+}
+.logoFooter{
+    height: 6vh;
+    width: 30%;
+    padding: 0.5rem 0.5rem 0 0;
+    /*background-color: aqua;*/
+    margin: 0px 25vh 0 0;
+}
+.logoFooter img{
+    height: 100%;
+    width: 100%;
+    padding-left: 0;
+    margin-left: 0;
+    margin-top: 35px;  
+}
+
+.lineaLatam{
+    color: aliceblue;
+    margin-top: 5px;
+    height: 10vh;
+    width: 30vh;
+    /*background-color: antiquewhite;*/
+    margin-left: 20vh;
+    padding-top: 0;
+}
+.lineaLatam p{
+    font-size: 0.9rem;
 }
 .carousel-item{
     height: 30vh;
